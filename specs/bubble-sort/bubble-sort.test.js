@@ -13,7 +13,7 @@
 function bubbleSort(nums) {
   let keepSwapping = true;
   let swapCount = 0;
-  while(keepSwapping) {
+  while (keepSwapping) {
     keepSwapping = false;
     for (let index = 0; index < nums.length - swapCount; index++) {
       let element = nums[index];
